@@ -356,6 +356,9 @@ MACHINEBUILD=dynaspark
 else ifeq ($(MACHINEBUILD),dynasparkplus)
 MACHINE=spark
 MACHINEBUILD=dynasparkplus
+else ifeq ($(MACHINEBUILD),test)
+MACHINE=test
+MACHINEBUILD=test
 
 else ifeq ($(MACHINEBUILD),amikoalien)
 MACHINE=spark7162
