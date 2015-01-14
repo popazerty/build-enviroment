@@ -25,6 +25,8 @@ BBLAYERS ?= \
 	$(CURDIR)/meta-openembedded/meta-filesystems \
 	$(CURDIR)/meta-openembedded/meta-python \
 	$(CURDIR)/meta-oe-alliance/meta-oe \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-fulan \
+	$(CURDIR)/meta-local \
 	#$(CURDIR)/meta-oe-alliance/meta-brands/meta-airdigital \
 	#$(CURDIR)/meta-oe-alliance/meta-brands/meta-azbox \
 	#$(CURDIR)/meta-oe-alliance/meta-brands/meta-blackbox \
@@ -34,7 +36,6 @@ BBLAYERS ?= \
 	#$(CURDIR)/meta-oe-alliance/meta-brands/meta-ebox \
 	#$(CURDIR)/meta-oe-alliance/meta-brands/meta-entwopia \
 	#$(CURDIR)/meta-oe-alliance/meta-brands/meta-formuler \
-	$(CURDIR)/meta-oe-alliance/meta-brands/meta-fulan \
 	#$(CURDIR)/meta-oe-alliance/meta-brands/meta-gigablue \
 	#$(CURDIR)/meta-oe-alliance/meta-brands/meta-ini \
 	#$(CURDIR)/meta-oe-alliance/meta-brands/meta-ixuss \
@@ -44,7 +45,7 @@ BBLAYERS ?= \
 	#$(CURDIR)/meta-oe-alliance/meta-brands/meta-vuplus \
 	#$(CURDIR)/meta-oe-alliance/meta-brands/meta-xp \
 	#$(CURDIR)/meta-oe-alliance/meta-brands/meta-xtrend \
-	$(CURDIR)/meta-local \
+	
 
 
 CONFFILES = \
